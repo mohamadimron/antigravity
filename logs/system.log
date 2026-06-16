@@ -1,0 +1,137 @@
+[2026-06-15T23:50:27.113Z] [ERROR] Gagal membaca/mendekode sesi cookie | Meta: {"error":"Dynamic server usage: Route /dashboard couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error"}
+[2026-06-15T23:50:27.118Z] [INFO] Membuka koneksi ke database SQLite pada path: /home/imran/Documents/webtest/database.sqlite
+[2026-06-15T23:50:27.127Z] [INFO] Mode WAL diaktifkan untuk SQLite.
+[2026-06-15T23:50:27.129Z] [INFO] Inisialisasi skema tabel database SQLite berhasil.
+[2026-06-15T23:50:27.284Z] [ERROR] Gagal membaca/mendekode sesi cookie | Meta: {"error":"Dynamic server usage: Route /dashboard/settings couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error"}
+[2026-06-15T23:50:27.377Z] [ERROR] Gagal membaca/mendekode sesi cookie | Meta: {"error":"Dynamic server usage: Route /dashboard/users couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error"}
+[2026-06-15T23:50:35.237Z] [INFO] Menerima permintaan OTP baru | Meta: {"username":"admin","phone":"081234567890"}
+[2026-06-15T23:50:35.238Z] [INFO] Membuka koneksi ke database SQLite pada path: /home/imran/Documents/webtest/database.sqlite
+[2026-06-15T23:50:35.243Z] [INFO] Mode WAL diaktifkan untuk SQLite.
+[2026-06-15T23:50:35.244Z] [INFO] Inisialisasi skema tabel database SQLite berhasil.
+[2026-06-15T23:50:35.248Z] [INFO] Simulasi OTP WhatsApp terkirim ke +6281234567890 (OTP: 123456)
+[2026-06-15T23:50:40.807Z] [INFO] Mencoba memverifikasi kode OTP | Meta: {"username":"admin","phone":"+6281234567890","otp":"123456"}
+[2026-06-15T23:50:40.818Z] [INFO] Sesi cookie baru diatur untuk pengguna: admin | Meta: {"userId":1}
+[2026-06-15T23:50:40.819Z] [INFO] Login sukses. Sesi berhasil dibuat untuk user: admin | Meta: {"userId":1}
+[2026-06-15T23:51:45.366Z] [INFO] Membuka koneksi ke database SQLite pada path: /home/imran/Documents/webtest/database.sqlite
+[2026-06-15T23:51:45.374Z] [INFO] Mode WAL diaktifkan untuk SQLite.
+[2026-06-15T23:51:45.375Z] [INFO] Inisialisasi skema tabel database SQLite berhasil.
+[2026-06-15T23:52:57.300Z] [INFO] Memulai pengujian konektivitas API WhatsApp Gateway (Simulasi)...
+[2026-06-15T23:52:58.102Z] [INFO] Pengujian konektivitas API WhatsApp Gateway berhasil (Status: Online/200 OK)
+[2026-06-15T23:53:17.539Z] [INFO] Memulai pembuatan pengguna baru: tes | Meta: {"role":"Admin","status":"Active"}
+[2026-06-15T23:53:17.540Z] [INFO] Pengguna baru 'tes' berhasil ditambahkan ke SQLite | Meta: {"role":"Admin","phone":"+628124578"}
+[2026-06-15T23:53:22.601Z] [INFO] Memulai proses penghapusan pengguna ID: 5
+[2026-06-15T23:53:22.604Z] [INFO] Pengguna 'tes' (ID: 5) berhasil dihapus dari SQLite
+[2026-06-15T23:54:09.522Z] [INFO] Proses logout pengguna dipanggil
+[2026-06-15T23:54:09.526Z] [INFO] Sesi cookie berhasil dihapus (logout)
+[2026-06-15T23:54:35.163Z] [INFO] Menerima permintaan OTP baru | Meta: {"username":"a","phone":"2"}
+[2026-06-15T23:54:35.164Z] [WARN] Permintaan OTP ditolak: username 'a' terlalu pendek
+[2026-06-15T23:54:42.037Z] [INFO] Menerima permintaan OTP baru | Meta: {"username":"aaa","phone":"22222222222"}
+[2026-06-15T23:54:42.039Z] [INFO] Simulasi OTP WhatsApp terkirim ke +22222222222 (OTP: 123456)
+[2026-06-15T23:54:45.389Z] [INFO] Mencoba memverifikasi kode OTP | Meta: {"username":"aaa","phone":"+22222222222","otp":"222222"}
+[2026-06-15T23:54:45.391Z] [WARN] Kode OTP salah dimasukkan untuk user aaa | Meta: {"phone":"+22222222222","inputOtp":"222222"}
+[2026-06-15T23:54:49.761Z] [INFO] Mencoba memverifikasi kode OTP | Meta: {"username":"aaa","phone":"+22222222222","otp":"123456"}
+[2026-06-15T23:54:49.762Z] [INFO] User baru terdeteksi. Melakukan registrasi otomatis untuk aaa | Meta: {"phone":"+22222222222"}
+[2026-06-15T23:54:49.765Z] [INFO] Registrasi otomatis berhasil untuk aaa | Meta: {"userId":6}
+[2026-06-15T23:54:49.770Z] [INFO] Sesi cookie baru diatur untuk pengguna: aaa | Meta: {"userId":6}
+[2026-06-15T23:54:49.771Z] [INFO] Login sukses. Sesi berhasil dibuat untuk user: aaa | Meta: {"userId":6}
+[2026-06-15T23:55:50.818Z] [INFO] Proses logout pengguna dipanggil
+[2026-06-15T23:55:50.824Z] [INFO] Sesi cookie berhasil dihapus (logout)
+[2026-06-16T00:05:18.774Z] [INFO] Membuka koneksi ke database SQLite pada path: /home/imran/Documents/webtest/database.sqlite
+[2026-06-16T00:05:18.779Z] [INFO] Mode WAL diaktifkan untuk SQLite.
+[2026-06-16T00:05:18.780Z] [INFO] Inisialisasi skema tabel database SQLite berhasil.
+[2026-06-16T00:06:41.290Z] [INFO] Menerima permintaan OTP baru | Meta: {"username":"admin","phone":"1122334455"}
+[2026-06-16T00:06:41.292Z] [INFO] Membuka koneksi ke database SQLite pada path: /home/imran/Documents/webtest/database.sqlite
+[2026-06-16T00:06:41.298Z] [INFO] Mode WAL diaktifkan untuk SQLite.
+[2026-06-16T00:06:41.299Z] [INFO] Inisialisasi skema tabel database SQLite berhasil.
+[2026-06-16T00:06:41.301Z] [INFO] Simulasi OTP WhatsApp terkirim ke +1122334455 (OTP: 123456)
+[2026-06-16T00:06:50.680Z] [INFO] Mencoba memverifikasi kode OTP | Meta: {"username":"admin","phone":"+1122334455","otp":"123456"}
+[2026-06-16T00:06:50.689Z] [INFO] Sesi cookie baru diatur untuk pengguna: admin | Meta: {"userId":1}
+[2026-06-16T00:06:50.691Z] [INFO] Login sukses. Sesi berhasil dibuat untuk user: admin | Meta: {"userId":1}
+[2026-06-16T00:12:13.694Z] [INFO] Proses logout pengguna dipanggil
+[2026-06-16T00:12:13.700Z] [INFO] Sesi cookie berhasil dihapus (logout)
+[2026-06-16T00:32:56.329Z] [INFO] Menerima permintaan OTP baru | Meta: {"username":"admin","phone":"081234567890"}
+[2026-06-16T00:32:56.331Z] [INFO] Membuka koneksi ke database SQLite pada path: /home/imran/Documents/webtest/database.sqlite
+[2026-06-16T00:32:56.335Z] [INFO] Mode WAL diaktifkan untuk SQLite.
+[2026-06-16T00:32:56.337Z] [INFO] Inisialisasi skema tabel database SQLite berhasil.
+[2026-06-16T00:32:56.338Z] [INFO] Simulasi OTP WhatsApp terkirim ke +6281234567890 (OTP: 123456)
+[2026-06-16T00:33:01.109Z] [INFO] Mencoba memverifikasi kode OTP | Meta: {"username":"admin","phone":"+6281234567890","otp":"123456"}
+[2026-06-16T00:33:01.116Z] [INFO] Sesi cookie baru diatur untuk pengguna: admin | Meta: {"userId":1}
+[2026-06-16T00:33:01.117Z] [INFO] Login sukses. Sesi berhasil dibuat untuk user: admin | Meta: {"userId":1}
+[2026-06-16T00:34:53.238Z] [INFO] Memulai proses penghapusan pengguna ID: 6
+[2026-06-16T00:34:53.241Z] [INFO] Pengguna 'aaa' (ID: 6) berhasil dihapus dari SQLite
+[2026-06-16T00:35:07.315Z] [INFO] Memulai pembuatan pengguna baru: Imran | Meta: {"role":"Admin","status":"Active"}
+[2026-06-16T00:35:07.318Z] [WARN] Gagal membuat pengguna: Username 'Imran' atau phone '+6281234567890' sudah terdaftar
+[2026-06-16T00:35:13.876Z] [INFO] Memulai pembuatan pengguna baru: Imran | Meta: {"role":"Admin","status":"Active"}
+[2026-06-16T00:35:13.879Z] [INFO] Pengguna baru 'Imran' berhasil ditambahkan ke SQLite | Meta: {"role":"Admin","phone":"+6281234567893"}
+[2026-06-16T00:35:20.291Z] [INFO] Memulai pembaruan pengguna ID: 7 | Meta: {"username":"Imran","role":"Admin","status":"Active"}
+[2026-06-16T00:35:20.294Z] [INFO] Pengguna ID: 7 ('Imran') berhasil diperbarui di SQLite
+[2026-06-16T00:39:17.666Z] [INFO] Membuka koneksi ke database SQLite pada path: /home/imran/Documents/webtest/database.sqlite
+[2026-06-16T00:39:17.684Z] [INFO] Mode WAL diaktifkan untuk SQLite.
+[2026-06-16T00:39:17.688Z] [INFO] Inisialisasi skema tabel database SQLite berhasil.
+[2026-06-16T00:39:56.666Z] [INFO] Menerima permintaan OTP baru | Meta: {"username":"admin","phone":"08123456789"}
+[2026-06-16T00:39:56.670Z] [INFO] Membuka koneksi ke database SQLite pada path: /home/imran/Documents/webtest/database.sqlite
+[2026-06-16T00:39:56.685Z] [INFO] Mode WAL diaktifkan untuk SQLite.
+[2026-06-16T00:39:56.691Z] [INFO] Inisialisasi skema tabel database SQLite berhasil.
+[2026-06-16T00:39:56.714Z] [INFO] Simulasi OTP WhatsApp terkirim ke +628123456789 (OTP: 123456)
+[2026-06-16T00:40:07.369Z] [INFO] Mencoba memverifikasi kode OTP | Meta: {"username":"admin","phone":"+628123456789","otp":"123456"}
+[2026-06-16T00:40:07.447Z] [INFO] Sesi cookie baru diatur untuk pengguna: admin | Meta: {"userId":1}
+[2026-06-16T00:40:07.450Z] [INFO] Login sukses. Sesi berhasil dibuat untuk user: admin | Meta: {"userId":1}
+[2026-06-16T00:41:34.703Z] [INFO] Memulai pembaruan pengguna ID: 7 | Meta: {"username":"Imran","role":"Admin","status":"Active"}
+[2026-06-16T00:41:34.709Z] [INFO] Pengguna ID: 7 ('Imran') berhasil diperbarui di SQLite
+[2026-06-16T00:45:31.530Z] [INFO] Membuka koneksi ke database SQLite pada path: /home/imran/Documents/webtest/database.sqlite
+[2026-06-16T00:45:31.541Z] [INFO] Mode WAL diaktifkan untuk SQLite.
+[2026-06-16T00:45:31.543Z] [INFO] Inisialisasi skema tabel database SQLite berhasil.
+[2026-06-16T00:51:26.906Z] [INFO] Membuka koneksi ke database SQLite pada path: /home/imran/Documents/webtest/database.sqlite
+[2026-06-16T00:51:26.921Z] [INFO] Mode WAL diaktifkan untuk SQLite.
+[2026-06-16T00:51:26.923Z] [INFO] Inisialisasi skema tabel database SQLite berhasil.
+[2026-06-16T00:59:33.710Z] [INFO] Menerima permintaan OTP baru | Meta: {"username":"admin","phone":"081234567890"}
+[2026-06-16T00:59:33.712Z] [INFO] Membuka koneksi ke database SQLite pada path: /home/imran/Documents/webtest/database.sqlite
+[2026-06-16T00:59:33.717Z] [INFO] Mode WAL diaktifkan untuk SQLite.
+[2026-06-16T00:59:33.718Z] [INFO] Inisialisasi skema tabel database SQLite berhasil.
+[2026-06-16T00:59:33.719Z] [INFO] Simulasi OTP WhatsApp terkirim ke +6281234567890 (OTP: 123456)
+[2026-06-16T00:59:39.219Z] [INFO] Mencoba memverifikasi kode OTP | Meta: {"username":"admin","phone":"+6281234567890","otp":"123456"}
+[2026-06-16T00:59:39.228Z] [INFO] Sesi cookie baru diatur untuk pengguna: admin | Meta: {"userId":1}
+[2026-06-16T00:59:39.229Z] [INFO] Login sukses. Sesi berhasil dibuat untuk user: admin | Meta: {"userId":1}
+[2026-06-16T01:00:00.154Z] [INFO] Memproses penyimpanan konfigurasi sistem baru | Meta: {"provider":"Wablas / Fonnte / Dummy","sandbox":"true","delay":"3"}
+[2026-06-16T01:00:00.158Z] [INFO] Konfigurasi sistem berhasil disimpan ke SQLite
+[2026-06-16T01:00:01.540Z] [INFO] Memproses penyimpanan konfigurasi sistem baru | Meta: {"provider":"Wablas / Fonnte / Dummy","sandbox":"true","delay":"3"}
+[2026-06-16T01:00:01.543Z] [INFO] Konfigurasi sistem berhasil disimpan ke SQLite
+[2026-06-16T01:00:39.401Z] [INFO] Proses logout pengguna dipanggil
+[2026-06-16T01:00:39.406Z] [INFO] Sesi cookie berhasil dihapus (logout)
+[2026-06-16T01:00:46.636Z] [INFO] Menerima permintaan OTP baru | Meta: {"username":"admin","phone":"081534567890"}
+[2026-06-16T01:00:46.637Z] [INFO] Mensimulasikan delay pengiriman OTP selama 3 detik
+[2026-06-16T01:00:49.641Z] [INFO] Simulasi OTP WhatsApp terkirim ke +6281534567890 (OTP: 123456)
+[2026-06-16T01:00:53.558Z] [INFO] Mencoba memverifikasi kode OTP | Meta: {"username":"admin","phone":"+6281534567890","otp":"123456"}
+[2026-06-16T01:00:53.567Z] [INFO] Sesi cookie baru diatur untuk pengguna: admin | Meta: {"userId":1}
+[2026-06-16T01:00:53.568Z] [INFO] Login sukses. Sesi berhasil dibuat untuk user: admin | Meta: {"userId":1}
+[2026-06-16T01:01:23.493Z] [INFO] Membuka koneksi ke database SQLite pada path: /home/imran/Documents/webtest/database.sqlite
+[2026-06-16T01:01:23.502Z] [INFO] Mode WAL diaktifkan untuk SQLite.
+[2026-06-16T01:01:23.504Z] [INFO] Inisialisasi skema tabel database SQLite berhasil.
+[2026-06-16T01:08:01.063Z] [INFO] Membuka koneksi ke database SQLite pada path: /home/imran/Documents/webtest/database.sqlite
+[2026-06-16T01:08:01.080Z] [INFO] Mode WAL diaktifkan untuk SQLite.
+[2026-06-16T01:08:01.081Z] [INFO] Inisialisasi skema tabel database SQLite berhasil.
+[2026-06-16T01:08:06.256Z] [INFO] Memulai pengujian konektivitas API WhatsApp Gateway (Simulasi)...
+[2026-06-16T01:08:07.060Z] [INFO] Pengujian konektivitas API WhatsApp Gateway berhasil (Status: Online/200 OK)
+[2026-06-16T01:08:31.803Z] [INFO] Proses logout pengguna dipanggil
+[2026-06-16T01:08:31.808Z] [INFO] Sesi cookie berhasil dihapus (logout)
+[2026-06-16T01:08:39.668Z] [INFO] Menerima permintaan OTP baru | Meta: {"username":"admin","phone":"081234567890"}
+[2026-06-16T01:08:39.669Z] [INFO] Mensimulasikan delay pengiriman OTP selama 3 detik
+[2026-06-16T01:08:42.673Z] [INFO] Simulasi OTP WhatsApp terkirim ke +6281234567890 (OTP: 123456)
+[2026-06-16T01:08:46.866Z] [INFO] Mencoba memverifikasi kode OTP | Meta: {"username":"admin","phone":"+6281234567890","otp":"123456"}
+[2026-06-16T01:08:46.873Z] [INFO] Sesi cookie baru diatur untuk pengguna: admin | Meta: {"userId":1}
+[2026-06-16T01:08:46.874Z] [INFO] Login sukses. Sesi berhasil dibuat untuk user: admin | Meta: {"userId":1}
+[2026-06-16T01:11:02.801Z] [INFO] Proses logout pengguna dipanggil
+[2026-06-16T01:11:02.805Z] [INFO] Sesi cookie berhasil dihapus (logout)
+[2026-06-16T01:11:30.074Z] [INFO] Menerima permintaan OTP baru | Meta: {"username":"admin","phone":"081234567890"}
+[2026-06-16T01:11:30.077Z] [INFO] Mensimulasikan delay pengiriman OTP selama 3 detik
+[2026-06-16T01:11:33.081Z] [INFO] Simulasi OTP WhatsApp terkirim ke +6281234567890 (OTP: 123456)
+[2026-06-16T01:11:41.261Z] [INFO] Mencoba memverifikasi kode OTP | Meta: {"username":"admin","phone":"+6281234567890","otp":"123456"}
+[2026-06-16T01:11:41.267Z] [INFO] Sesi cookie baru diatur untuk pengguna: admin | Meta: {"userId":1}
+[2026-06-16T01:11:41.270Z] [INFO] Login sukses. Sesi berhasil dibuat untuk user: admin | Meta: {"userId":1}
+[2026-06-16T01:11:55.017Z] [INFO] Memproses penyimpanan konfigurasi sistem baru | Meta: {"provider":"Wablas API","sandbox":"true","delay":"3"}
+[2026-06-16T01:11:55.019Z] [INFO] Konfigurasi sistem berhasil disimpan ke SQLite
+[2026-06-16T01:12:43.496Z] [INFO] Memulai proses penghapusan pengguna ID: 3
+[2026-06-16T01:12:43.500Z] [INFO] Pengguna 'sitinurhaliza' (ID: 3) berhasil dihapus dari SQLite
+[2026-06-16T01:16:56.918Z] [INFO] Membuka koneksi ke database SQLite pada path: /home/imran/Documents/webtest/database.sqlite
+[2026-06-16T01:16:56.931Z] [INFO] Mode WAL diaktifkan untuk SQLite.
+[2026-06-16T01:16:56.934Z] [INFO] Inisialisasi skema tabel database SQLite berhasil.
